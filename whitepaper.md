@@ -7,29 +7,46 @@ The digital asset revolution has moved beyond collectibles and speculation. As W
 Machina is a next-generation NFT collection and infrastructure protocol built on the Sui network. Inspired by the sleek, futuristic robot-style inspired by top sui collection, Prime machin, Machina reimagines NFTs as sovereign encrypted vaults—self-contained, transferable digital security units powered by the innovative SEAL encryption system.
 
 Each Machina NFT is more than art. It is:
+
 A cryptographic vault
+
 A secure communication layer
+
 A decentralized password manager
+
 A portable encrypted data container
+
 A programmable identity asset
 
 Machina introduces a paradigm shift: Ownership equals access.
 Only the wallet that owns a Machina NFT can decrypt the secrets stored within it. If the NFT is transferred, access rights automatically shift to the new owner — trustlessly, without intermediaries.
 This whitepaper outlines:
+
 The Machina vision
+
 The SEAL encryption mechanism
+
 Technical architecture
+
 Use cases
+
 Token economics
+
 Governance model
+
 Roadmap
+
 Investment thesis
+
 Machina is where NFT utility meets institutional-grade encryption.
 
 **2. The Problem**
 Web3 users today face major security and privacy limitations:
+
 2.1 Centralized Password Storage: Most password managers are centralized. Users must trust companies with sensitive data, exposing them to breaches.
+
 2.2 Non-Functional NFTs: Many NFT collections lack real utility. Their value depends on speculation rather than intrinsic functionality.
+
 2.3 Insecure Digital Communication: Private communication often depends on third-party apps that store metadata and encryption keys.
 
 2.4 Ownership ≠ Control: In traditional systems, transferring an asset does not automatically transfer encrypted data rights in a trustless way.
@@ -38,16 +55,24 @@ Machina solves these issues by embedding encrypted vault capability directly int
 **3. Vision of Machina**
 
 Machina envisions a world where:
+
 Digital ownership is absolute
+
 Encryption is embedded into asset design
+
 NFTs become functional security devices
+
 Data sovereignty belongs fully to the owner
 
 
 Each Machina NFT is designed as a digital robot guardian, representing:
+
 Intelligence
+
 Protection
+
 Autonomy
+
 Power
 
 The robotic Prime machin-type aesthetic symbolizes advanced encryption, mechanical precision, and futuristic sovereignty.
@@ -57,19 +82,25 @@ Machina is not just an art collection — it is a secure decentralized vault pro
 Machina is built on the Sui blockchain for critical reasons:
 Object-Centric Model: Sui’s object-based architecture allows NFTs to function as programmable objects with dynamic state — perfect for vault logic.
  High Throughput & Low Latency: Vault interactions and encrypted message operations require speed. Sui provides scalable performance.
+
  Move Programming Language: Sui uses Move, which allows secure asset logic and strong guarantees around ownership and transfer rules.
+
 Native Upgradability: Machina vault logic can evolve without compromising existing stored data.
 
 **5. What is SEAL Encryption?**
 SEAL is a next-generation encryption framework built on Sui designed to bind encrypted data access directly to blockchain ownership.
 5.1 Core Concept
 SEAL ties decryption rights to NFT ownership through:
+
 Public-private key cryptography
+
 Wallet signature verification
+
 On-chain access validation
+
 Dynamic re-binding upon transfer
 
-5.2 How SEAL Works
+**5.2 How SEAL Works**
 Step 1: Data Encryption: The user encrypts text, passwords, or files locally using a key derived from their wallet credentials and NFT object ID.
 Step 2: Storage: Encrypted data is stored either;
 On Walrus, or
@@ -95,10 +126,15 @@ iii.Version control
 
 Encrypted Storage Module
 Machina is being built to support the following;
+
 i.Text secrets
+
 ii.Password entries
+
 iii.Private messages
+
 iv.Encrypted JSON files
+
 v.Authentication credentials
 
 6.3 Access Logic Smart Contract
@@ -136,7 +172,7 @@ Ownership transfer automatically transfers secret access.
 Sensitive DAO information can be locked inside Machina vaults.
 
 
-## 8. Security Model
+**8. Security Model**
 
 Machina is built to integrate:
 i.Client-side encryption
@@ -151,7 +187,7 @@ Attack resistance includes:
 No admin override access
 Even Machina developers cannot decrypt vault content.
 
-## 9. Economic Model
+**9. Economic Model**
 9.1 Genesis Collection
 Limited supply: 999 Machina NFTs
 Robot-themed generative art
@@ -170,7 +206,7 @@ Different rarity tiers may offer:
 4. API integrations
 5. Premium vault upgrades
 
-## 10. Competitive Advantage
+**10. Competitive Advantage**
 Machina differentiates itself through:
 Real Utility and the first of its kind at that
 Native Sui integration
@@ -179,7 +215,7 @@ Machina differentiates itself through:
 Institutional potential
 Unlike static NFT collections, Machina is functional infrastructure.
 
-## 11. Governance
+**11. Governance**
 Machina will evolve into a DAO structure where NFT holders:
 Vote on upgrades
 Approve new vault modules
